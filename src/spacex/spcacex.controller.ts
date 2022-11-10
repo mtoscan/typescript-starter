@@ -1,5 +1,4 @@
 import { Controller, Get } from '@nestjs/common';
-import { Launch } from './interface/launch.interface';
 import { UserLaunch } from './interface/user_launch.interface';
 import { SpaceXService } from './spacex.service';
 
